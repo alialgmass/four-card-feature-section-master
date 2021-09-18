@@ -1,0 +1,110 @@
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsla(228, 6%, 66%, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:3rem 0;
+}
+p,h1,h2,h3,h4{
+  padding: 0;
+  margin: 0;
+  
+}
+h1,h2{
+text-align: center;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+h2{
+font-size: 2.4rem;
+}
+h1{
+font-weight:600;
+}
+.container{
+ 
+}
+.info{
+   color: hsl(229, 6%, 66%);
+width:30rem;
+margin:auto;
+  text-align: center;
+  padding: .5rem 0 ;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.componentContainer{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3rem;
+}
+.topbotom{
+  margin: 0 20px;
+}
+.onecomponent.l{
+ 
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+.onecomponent.t{
+margin-bottom: 1rem;
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+.onecomponent.r{
+ 
+ 
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+.onecomponent.b{
+  
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+.onecomponent{
+ 
+    
+    padding: 30px 30px;
+    width: 210px;
+    border-top: 4px solid #0f0;
+    border-radius: 2.5%;
+    box-shadow: 5px 5px 5px 5px #eee;
+    background-color: #fff;
+   
+    height: 99px;
+}
+.onecomponent div{
+height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.onecomponent div h4{
+font-weight: 600;
+    
+    color: hsl(234, 12%, 34%);
+    font-size: 1.5rem;
+}
+.onecomponent p{
+color: hsl(229, 6%, 66%);
+}
+.onecomponent img{
+  width: 39px;
+    align-self: end;
+}
+Footer{
+padding-top: 6rem;
+}
+@media (max-width:1000px) {
+  .componentContainer{
+ flex-direction:column;
+ 
+}
+.onecomponent{
+margin-bottom: 1rem;
+}
+}
